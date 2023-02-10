@@ -1,0 +1,21 @@
+//comentario
+i := 1
+total := (1.0 + 0 * 1) - i
+while total < 1000.0 do
+    if i = 1 then
+        total := total * 2
+    else
+        total := total - 1
+    fi
+    //i := -i
+    if total > 666.6 then
+        i := 111
+    fi
+done
+total
+if i > 200 then
+    i := 1
+fi
+do
+    i := i + 1
+until i > 100
